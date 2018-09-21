@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/laptop_store"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Laptop Store"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-5dp"
+            android:textColor="#c0392b"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/laptop"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Brooks"
+            android:textColor="#c0392b"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+//200
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/bet" />
+
+        <Button
+            android:id="@+id/Login_btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/mainpagebtn"
+            android:text="Login in"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="80dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/mainpagebtn"
+            android:lineSpacingExtra="7dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Laptop store is an app that you can buy laptops and thier accessories  online and share your products in our App"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Signup_btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/btn"
+            android:text="Sign up"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+//80
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:text="Adress :Cairo,Elmadi,Front of Pinci Cafe"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="4dp"
+            android:text="Mansura,Elgomhoria St near Marshal "
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="17dp"
+            android:text="Contact:  laptopstore@gmai.com"
+            android:textColor="#fff"
+
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="4dp"
+            android:text="050xxxxxxx"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_marginLeft="120dp">
+
+            <ImageButton
+                android:id="@+id/gmailbtn"
+                android:layout_width="0.05dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_button"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/gegemail" />
+
+            <ImageButton
+                android:id="@+id/facebokbtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/facebook_button" />
+
+            <ImageButton
+                android:id="@+id/instabtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/instagram" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

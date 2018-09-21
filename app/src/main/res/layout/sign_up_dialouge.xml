@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@drawable/dialouge_shape"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="#c0392b"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="User name"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/display_name"
+        android:layout_width="210dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#fff"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="210dp"
+        android:layout_height="25dp"
+        android:background="#fff"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+
+                <EditText
+        android:id="@+id/passwod"
+        android:layout_width="210dp"
+        android:layout_height="25dp"
+        android:background="#fff"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+    <Button
+        android:id="@+id/Sign_uup"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn"
+        android:fontFamily="sans-serif-condensed"
+
+
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="#fff"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/already_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="I am Already member"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/sign_up_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#adc80a"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>
+

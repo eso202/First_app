@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/dialouge_shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Sign in"
+
+        android:textColor="#c0392b"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/ed_signin_mail"
+            android:layout_width="210dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#fff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/ed_signin_password"
+            android:layout_width="210dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="#fff"/>
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn"
+        android:fontFamily="sans-serif-condensed"
+
+
+        android:gravity="center"
+        android:text="Sign in"
+        android:textColor="#fff"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/dont_have_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="if you dont have account..Sign up"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+    android:textColor="#adc80a"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
+

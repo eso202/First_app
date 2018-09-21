@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431710010799",
+    "firebase_url": "https://laptop-store-bfbd2.firebaseio.com",
+    "project_id": "laptop-store-bfbd2",
+    "storage_bucket": "laptop-store-bfbd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431710010799:android:6601b9677ba37e21",
+        "android_client_info": {
+          "package_name": "com.example.laptophome.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431710010799-o2f9sks6ub6olavkrrsmp81l66gas6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcM84mnPpWeLz9y9vznFDUCA6ZuZp_poM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
